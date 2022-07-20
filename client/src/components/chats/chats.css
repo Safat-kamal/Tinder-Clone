@@ -1,0 +1,17 @@
+.chats{
+    background-color: rgb(252, 252, 252);
+    height: 100vh;
+    overflow:scroll;
+    margin: 40px auto;
+    padding: 0 10%;
+}
+/* width */
+::-webkit-scrollbar {
+    display: none;
+}
+.chats__title{
+    color: #444;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}

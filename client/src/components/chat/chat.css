@@ -1,0 +1,32 @@
+.chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 35px;
+    height: 70px;
+    border-bottom: 1px solid #fefefe;
+    cursor: pointer;
+}
+.chat__details{
+    flex: 1;
+    margin-left: 20px;
+}
+.chat__details > h2{
+    color: #555;
+}
+.chat__details > p{
+    margin-top: 5px;
+    color: gray;
+}
+.timestamp{
+    color: rgb(197, 192, 192);
+}
+.chat:hover{
+    background-color: #eee;
+    transition: 0.1s ease-in-out 0.1s;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
